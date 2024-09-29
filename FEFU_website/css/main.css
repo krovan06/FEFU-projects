@@ -1,0 +1,27 @@
+.main-info {
+  background-color: whitesmoke;
+}
+
+.border-right {
+  float: left;
+}
+
+.basement {
+  color: black;
+  height: 100vh;
+}
+
+aside {
+  float: left;
+  width: 20%;
+  color: black;
+}
+
+aside li {
+  list-style: none;
+}
+
+aside img {
+  width: 110px;
+  float: center;
+}
