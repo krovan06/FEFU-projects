@@ -4,7 +4,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 img {
   margin: 20px 0;
@@ -12,9 +11,7 @@ img {
 h2, h3 {
   margin: 10px;
 }
-nav {
-  margin: 20px 0;
-}
+
 nav a {
   margin: 0 15px;
   text-decoration: none;
@@ -23,4 +20,29 @@ nav a {
 footer {
   margin-top: 40px;
   font-size: small;
+}
+
+main nav a {
+  display: block;
+  position: relative;
+}
+
+main nav a:nth-child(1) {
+  margin-left: 0px;
+}
+
+main nav a:nth-child(2) {
+  margin-left: 20px;
+}
+
+main nav a:nth-child(3) {
+  margin-left: 40px;
+}
+
+main nav a:nth-child(4) {
+  margin-left: 60px;
+}
+
+main nav a:nth-child(5) {
+  margin-left: 80px;
 }
